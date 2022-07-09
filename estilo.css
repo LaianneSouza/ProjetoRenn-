@@ -1,0 +1,220 @@
+body{
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+    background-color: #15041d;
+}
+.header{
+    background-color: #072e55;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.menu{
+    background-color: #849299;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.menu-left img{
+    width: 80px;
+    margin-left: 40px;
+}
+.menu-right a{
+    display: inline-block;
+    background-color: rgb(138, 4, 4);
+    font-size: 20px;
+    padding: 15px 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.logo h2{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.logo span{
+    color: #1A7993;
+}
+.section-01{
+    background-color: #5d6a70;
+    height: 100px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: right;
+}
+.area-title-02 {
+    justify-content: right;
+    align-items: right;
+}
+.area-title-02 a{
+    display: inline-block;
+    background-color: rgb(138, 4, 4);
+    padding: 15px 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.section-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.area-title h3{
+    color: #fff;
+    font-weight: normal;
+}
+.area-title h1{
+    color: #fff;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: -16px;
+}
+.area-title a{
+    display: inline-block;
+    background-color: #1A7993;
+    padding: 15px 60px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.image1 img{
+    width: 480px;
+    height: auto;
+    margin-left: 55px;
+}
+/* AREA CARDS */
+.section-cards{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: top 100px;
+    margin-bottom: 100px;
+}
+.section-cards h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px; 
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-top: 40px;
+
+}
+    
+.card{
+    background-color: #fff;
+    width: 200px;
+    height: 300px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+}
+.card:hover{
+    background-color: #1A7993;
+    transition: 0.3s all;
+}
+.card img {
+    width: 200px;
+    height: 400px;
+    color: #fff;
+}
+.card a{
+    font-size: 18px;
+    margin-top: 2px;
+}
+/* SECTION-3*/
+.section-3{
+    background-color: #1A7993;
+    height: 342px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.area-title-2 h1{
+    color:#fff;
+    font-size: 35px;
+}
+.area-title-2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -26px;
+}
+.area-title-2 a{
+    display: inline-block;
+    background-color: #fff;
+    padding: 15px 60px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.image2 img{
+    width: 500px;
+    height: 342px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+.area-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.area-form h2{
+    color: #fff;
+    text-align: center;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300;
+}
+.formulario input{
+    margin-top: 20px;
+    padding-left: 10px;
+    height: 40px;
+    border: none;
+    outline: #000;
+    font-family: 'Oswald';
+}
+input::placeholder{
+    color: #000;
+    text-transform: uppercase;
+}
+input[type="submit"]{
+    background-color: #1A7993;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    height: 55px;
+    cursor: pointer;
+}
